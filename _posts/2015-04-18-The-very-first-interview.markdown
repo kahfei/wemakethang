@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Pilot
-date: 2015-04-18  15:00:00
+title: Curry Khoo
+date: 2015-05-16
+thumbnails:
 comments: true
 ---
 Drink interviewing food
