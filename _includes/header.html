@@ -1,13 +1,14 @@
 <div class="site-title">
-	{{ site.title }}
+	<a href="/">{{ site.title }}</a>
+	<p class="site-description">{{ site.description }}</p>
 </div>
-<div class="site-description">
-	{{ site.description }}
-</div>
+
 <div class="site-navigation">
+  <div class="row">
   {% for page in site.pages %}
-    {{ page.title }}
+      <div class="col-sm-4 nav-pages"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></div>
   {% endfor %}
+  </div>
 </div>
 
 

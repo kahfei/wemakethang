@@ -1,16 +1,25 @@
 ---
 layout: default
 ---
-  <ul class="list-unstyled">
-    {% for post in site.posts %}
-      <li>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <small>{{ post.date | date: "%b %-d, %Y" }}</small>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
+
+<div class="row">
+{% for post in site.posts %}
+  <div class="col-sm-3">
+  	<a href=" {{ post.url | prepend: site.baseurl }} ">
+  	<div class="thumbnail profile-thumbnail">
+      <img src="{{ post.thumbnail }}"/>
+        <div class="caption profile-caption">
+          <h4>
+            {{ post.title }}
+          </h4>
+          {{ post.description }}
+        </div>
+    </div>
+    </a>
+  </div>
+{% endfor %}
+</div>
+
 
 
 
