@@ -1,0 +1,16 @@
+/* font selection: nunito,montserrat,pacifico*/
+body {
+  font-family: 'Libre Baskerville', serif;
+
+}
+.site-title {
+  font-size: 5em;
+}
+.site-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .85em;
+  line-height: 2em;
+  font-weight: bold;
+  letter-spacing: 25px;
+  text-transform: uppercase;
+}
