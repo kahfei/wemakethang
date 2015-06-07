@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<div class="content-interview">
 <div class="row">
 {% for post in site.posts %}
   <div class="col-sm-3">
@@ -12,7 +12,9 @@ layout: default
           <h4>
             {{ post.title }}
           </h4>
+			<hr class="divider">
           {{ post.description }}
+
         </div>
     </div>
     </a>

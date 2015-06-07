@@ -1,7 +1,20 @@
-/* font selection: nunito,montserrat,pacifico*/
+/* font selection: montserrat, libre baskerville */
+/* color selection, from dark to light gray
+  151515
+  222222
+  373737
+  595959
+  909090
+*/
+
+/* reset link */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #151515;
+}
+
 body {
   font-family: 'Libre Baskerville', serif;
-
 }
 .site-title {
   font-size: 5em;
@@ -29,9 +42,38 @@ body {
 .profile-caption {
   text-align: center;
 }
+.profile-lead {
+  margin-top: 5px;
+  padding-top: 10px;
+  border-bottom: 1px solid #595959;
+  border-top: 1px solid #595959;
+}
 .profile-thumbnail {
   border: none;
 }
 .nav-pages {
   text-align: center;
+}
+.content-interview {
+  margin-top: 20px;
+}
+.divider {
+  background: #595959;
+  border: none;
+  height: 0.8px;
+}
+.issue-meta {
+  text-align: right;
+}
+.issue-number {
+  width: 30px;
+  padding:3px 0 3px 3px;
+  letter-spacing: 2px;
+  display: inline-block;
+  color: #151515;
+  border: 2px solid #151515;
+  text-align: center;
+}
+.content-footer {
+  margin: 0 auto;
 }

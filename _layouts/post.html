@@ -1,12 +1,7 @@
 ---
 layout: default
 ---
-
-    	<small><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></small>
-    	{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-
-
-  
+<div class="content-interview">
     {{ content }}
     {% if page.comments %}
 	  	<div id="disqus_thread">
@@ -25,6 +20,7 @@ layout: default
 	    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
     {% endif %}
+ </div>
 	  
 
 
