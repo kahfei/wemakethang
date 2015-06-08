@@ -21,6 +21,8 @@ tag:
 
 <p>It was around that time that I met Angie. She was in a program where I was working, and we had also known of each other through hanging out in similar circles. Right after we met, I left San Francisco and traveled for a year. While I was gone, Angie took over my job, unbeknownst to me. When I returned, we ran into each other at a mutual friend’s gallery show, and we just clicked. The funny part is that I didn’t know what I was going to do for work when I returned to San Francisco; I was sort of floating around, but then I got my old job back. That evening at the show, I talked with Angie and told her, “Hey, I got my job back,” and she replied, “Oh, I got fired today!” (laughing)</p>
 
+<div class="quote-left">“Hey, I got my job back,” and she replied, “Oh, I got fired today!”</div>
+
 <p>“Even though we didn’t think of Poketo as a business at first, we couldn’t help but ask, ‘What else do we want in our lives? How can we extend this idea of art for everyday living?’”</p>
 
 <p class="q"><strong>That is really funny. What happened next?</strong></p>

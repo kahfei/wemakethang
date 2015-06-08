@@ -56,6 +56,7 @@ body {
 }
 .content-interview {
   margin-top: 20px;
+  padding-bottom: 80px;
 }
 .divider {
   background: #595959;
@@ -75,5 +76,14 @@ body {
   text-align: center;
 }
 .content-footer {
-  margin: 0 auto;
+  border-top: 1px solid #595959;
+  padding-top: 50px;
 }
+.content-footer h5 {
+  font-weight: 100;
+  color: #595959;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
