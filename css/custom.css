@@ -86,4 +86,12 @@ body {
   text-align: center;
   letter-spacing: 2px;
 }
+.quote-left {
+  background-color: red;
+  margin-right: 200px;
+  display: inline-block;
+}
+.wrapper {
+  position:fixed;
+}
 
