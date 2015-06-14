@@ -54,9 +54,9 @@ body {
 .nav-pages {
   text-align: center;
 }
-.content-interview {
+.content{
   margin-top: 20px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 .divider {
   background: #595959;
@@ -78,6 +78,8 @@ body {
 .content-footer {
   border-top: 1px solid #595959;
   padding-top: 50px;
+  padding-bottom: 80px;
+  margin-top: 50px;
 }
 .content-footer h5 {
   font-weight: 100;
@@ -94,6 +96,7 @@ body {
 .wrapper {
   position:fixed;
 }
+
 
 /*customize disqus */
 
