@@ -36,3 +36,10 @@ namespace :draft do
     puts "Post copied and ready to deploy!"
   end
 end
+
+namespace :deploy do
+  desc 'Build then deploy to aws s3'
+  task :all do 
+    sh "jekyll build; s3_website push"
+  end
+end
