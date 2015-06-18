@@ -11,5 +11,7 @@ Inevitably at some point, I thought it will be interesting to start an interview
 
 This site is built with jekyll, mainly as a reason to dabble with it. To get things out real quick (fail fast learn fast, ;-)), I used bootstrap for styling, the lovely factory logo coming from Noun project https://thenounproject.com/search/?q=factory&i=605, google fonts (namely libre baskerville and montserrat) while heavyly drawing inspiration from the awesome 100daysoffonts http://100daysoffonts.com/index.html for design. 
 
+Please drop your email address here to subscribe for updates. Nope, I don't do spam, and wouldn't sell your email to others :-). 
+
 
 
