@@ -17,18 +17,34 @@ permalink: /about/
 </p>
 
 <form action="//formspree.io/bak.kahfei@gmail.com"
-      method="POST">
+      method="POST" class="form-inline">
     <div class="form-group">
-	    <input type="text" name="name" placeholder="name">
+    	<label class="sr-only"> name </label>
+	    <input type="text" name="name" placeholder="name" class="form-control">
 	</div>
-	<div class="form-group">
-	    <input type="email" name="_replyto" placeholder="email">
+	<div class="form-group"> 
+		<label class="sr-only">email</label>
+	    <input type="email" name="_replyto" placeholder="email" class="form-control">
 	</div>
-	    <input type="submit" value="Send" class="btn btn-default">
+	    <button type="submit" class="btn btn-default">Subscribe</button>
 	    <input type="hidden" name="_next" value="thanks.html" />
-	</div>
 </form>
 
+<h5>Notes</h5>
+<ol>
+	<li>
+	It is a long list, here are some of them, 
+	Dorm Room Tycoon http://drt.fm/
+	Product People http://productpeople.tv/
+	The Setup http://usesthis.com/
+	Gimlet Startup http://gimletmedia.com/show/startup/
+	The Great Discontent https://thegreatdiscontent.com/
+	The Tim Ferriss Show http://fourhourworkweek.com/podcast/
+	</li>
+	<li>
+	I live in the beautiful Penang, beaches, great foods, nice people, bad traffic sometimes and of course Ernest Zacharevic's graffiti.
+	</li>
+</ol>
 
 </div>
 
